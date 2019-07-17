@@ -1,9 +1,5 @@
 \documentclass[11pt,letterpaper,roman]{moderncv}
 \usepackage[scale=0.8,margin=0.65in]{geometry}
-\usepackage{fontspec} 
-
-% \setmainfont[Ligatures=TeX,
-%              Numbers=OldStyle]{IBM Plex Sans}
 
 \moderncvstyle{classic}
 \moderncvcolor{blue}
@@ -24,24 +20,22 @@
 \sethintscolumntowidth{mmm yyyy - mmm yyyy}
 
 \section{Education}
-\cventry{2015 -- Current}{B.S. Computer Science}{Stevens Institute of Technology}{Hoboken, NJ}{}{
-    \textit{Major GPA -- 3.91, Overall GPA -- 3.78}
+\cventry{2015 -- 2019}{B.S. Computer Science}{Stevens Institute of Technology}{Hoboken, NJ}{}{
+    \textit{Major GPA -- 3.95, Overall GPA -- 3.83}
     \begin{itemize}
-        \item Vice President of Upsilon Pi Epsilon (Computer Science Honor Society)
-        \item Secretary of Stevens Computer Science Club
-        \item Teaching Assistant for CS146 Intro to Web Development and CS546 Web Programming
-        \item Dean's List: 2016 - 2018
-        \item Graduation - May 2019
+        \item Dean's List: 2016 - 2019
+        \item TA for CS546 Web Programming and CS554 Advanced Web Programming
+        \item Member of Upsilon Pi Epsilon: International Honor Society for the Computing and Information Disciplines
     \end{itemize}
 }
 
 \section{Experience}
 \cventry{June 2017 -- Current}{Software Engineer}{\href{https://ibm.com}{IBM}}{Armonk, NY}{}{
     \begin{itemize}
-        \item Designed and developed two applications: Overcast (web dashboard for PaaS metrics) and Kommodore (Kubernetes monitoring tool) for IBM Cloud Dedicated.
-        \item Applications were implemented with React/Redux (front-end) and Express/NodeJS (back-end) and containerized as deployments in Kubernetes.
-        \item PostgreSQL, MongoDB and Redis were utilized for persistant and ephermal storage.
-        \item Practiced Agile methodology with daily scrums and iteration planning with Trello.
+        \item Developed various microservices (Java, Go, Node.js) for provisioning internal Kubernetes clusters and other IBM Cloud offerings.
+        \item Created a user-facing portal implemented with React/Redux (front-end) and Express/Node.js (back-end) in a containerized deployment.
+        \item Utilized various databases including PostgreSQL, MongoDB and Redis for persistant and ephermal storage.
+        \item Practiced Agile methodology with daily scrums and iteration planning with Jira.
     \end{itemize}
 }
 \cventry{Jan 2017 -- June 2017}{Software Engineer}{\href{http://onsightdigitalsolutions.com/}{OnSight Digital Solutions}}{Hoboken, NJ}{}{
@@ -53,23 +47,23 @@
 }
 
 \section{Projects}
+\cventry{Academic}{Tyr, Senior Design Project}{}{}{}{
+    \begin{itemize}
+        \item Platform that helps educators assess student assignments in a scalable, fault tolerant, and uniform testing environment, with a user-friendly web dashboard.
+        \item Tyr manages a collection of microservices to create identical and ephemeral testing environments via a self-hosted Kubernetes cluster.
+    \end{itemize}
+}
+
 \cventry{Academic}{Yet Another Messaging Service}{}{}{}{
     \begin{itemize}
         \item Slack-like clone written in Typescript and React, and Electron for the client.
         \item Socket.io was used for message communications, and MongoDB for persistant storage. 
     \end{itemize}
 }
-\cventry{Academic}{Stratus}{}{}{}{
-    \begin{itemize}
-        \item Online Markdown editor web service written in React/Redux.
-        \item MongoDB was used for user data and mappings of files to an Amazon S3 bucket.
-    \end{itemize}
-}
 
 \cventry{Hackathon}{Scramble}{}{}{}{
     \begin{itemize}
-        \item Collection of fast-paced multiplayer mini-games for the browser, written in React.
-        \item Express.js server pairs clients into Socket.io Rooms and starts a random mini-game between the two clients.
+        \item Express.js server pairs clients into Socket.io Rooms and starts random fast-paced multiplayer mini-games for the browser between the two clients.
         \item HackBU Winner - Best Design
     \end{itemize}
 }
