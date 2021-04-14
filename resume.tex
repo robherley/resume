@@ -2,11 +2,10 @@
 \usepackage[scale=0.8,margin=0.65in]{geometry}
 
 \moderncvstyle{classic}
-\moderncvcolor{blue}
+\moderncvcolor{purple}
 
 \name{Robert}{Herley IV}
 \title{Software Engineer $\cdotp$ Full Stack Developer}
-\address{28 Pioneer Blvd}{Huntington Station, NY 11746}
 \phone[mobile]{1-631-896-7161}
 \email{robherley13@gmail.com}
 \homepage{robherley.xyz}
@@ -23,41 +22,31 @@
 \cventry{2015 -- 2019}{B.S. Computer Science}{Stevens Institute of Technology}{Hoboken, NJ}{}{
     \textit{Major GPA -- 3.95, Overall GPA -- 3.83}
     \begin{itemize}
-        \item Dean's List: 2016 - 2019
+        \item Dean's List: 2016 - 2019, Member of Upsilon Pi Epsilon: International Honor Society for the Computing and Information Disciplines
         \item TA for CS546 Web Programming and CS554 Advanced Web Programming
-        \item Member of Upsilon Pi Epsilon: International Honor Society for the Computing and Information Disciplines
     \end{itemize}
 }
 
 \section{Experience}
 \cventry{June 2017 -- Current}{Software Engineer}{\href{https://ibm.com}{IBM}}{Armonk, NY}{}{
     \begin{itemize}
-        \item Developed various microservices (Java, Go, Node.js) for provisioning internal Kubernetes clusters and other IBM Cloud offerings.
-        \item Created a user-facing portal implemented with React/Redux (front-end) and Express/Node.js (back-end) in a containerized deployment.
-        \item Utilized various databases including PostgreSQL, MongoDB and Redis for persistant and ephermal storage.
-        \item Practiced Agile methodology with daily scrums and iteration planning with Jira.
+        \item Worked on integral components of an internal PaaS, powered by OpenShift that currently serves over nine thousand, highly available deployed applications.
+        \item Created multiple Kubernetes-native components (operators, controllers, webhooks) and microservices (Golang) to assist in the orchestration of user workloads.
+        \item Designed and developed single-page web console (React/NodeJS) to interact with OpenShift resources across a dozen clusters, interfacing with various microservices, databases and message queues.
     \end{itemize}
 }
 \cventry{Jan 2017 -- June 2017}{Software Engineer}{\href{http://onsightdigitalsolutions.com/}{OnSight Digital Solutions}}{Hoboken, NJ}{}{
     \begin{itemize}
-        \item Developed an online service that organizes transaction information from internal APIs to an end-user, utilizing various forms of data vizualization.
-        \item Implemented technologies front-end technologies: Bootstrap, D3.js and LESS.
-        \item Undertow Java back-end deployed in AWS, managed mySQL database in DataGrip.
+        \item Developed an online service that organizes transaction information from internal APIs to an end-user, utilizing various forms of data visualization.
+        \item Front-end technologies: Bootstrap, D3.js and LESS, Java back-end deployed in AWS, and managed mySQL database.
     \end{itemize}
 }
 
 \section{Projects}
 \cventry{Academic}{Tyr, Senior Design Project}{}{}{}{
     \begin{itemize}
-        \item Platform that helps educators assess student assignments in a scalable, fault tolerant, and uniform testing environment, with a user-friendly web dashboard.
-        \item Tyr manages a collection of microservices to create identical and ephemeral testing environments via a self-hosted Kubernetes cluster.
-    \end{itemize}
-}
-
-\cventry{Academic}{Yet Another Messaging Service}{}{}{}{
-    \begin{itemize}
-        \item Slack-like clone written in Typescript and React, and Electron for the client.
-        \item Used Socket.io for message communications, and MongoDB for persistent storage. 
+        \item Platform that helps educators assess student assignments to create identical and ephemeral testing environments via a self-hosted Kubernetes cluster.
+        \item React single page app front-end, back-end microservices written in Go, Redis for cache and MongoDB for persistent storage.
     \end{itemize}
 }
 
@@ -68,10 +57,17 @@
     \end{itemize}
 }
 
+\cventry{Contract}{Hudson Space Systems, Website}{}{}{}{
+    \begin{itemize}
+        \item Designed in Sketch, developed front-end using React and Gatsby, CI/CD via GitHub Actions.
+    \end{itemize}
+}
+
 \section{Skills}
-\cvitem{\textbf{Languages}}{JavaScript/TypeScript, C/C++, Python, Java, Bash, SQL, Go}
-\cvitem{\textbf{Web \& Cloud}}{HTML5, CSS/Sass, React/Redux, MongoDB, Docker, Kubernetes, Electron}
-\cvitem{\textbf{Misc. Tech}}{Git, Linux, Redis, Travis CI, Trello, ZenHub, \LaTeX{}}
+\cvitem{\textbf{Languages}}{JavaScript/TypeScript, Go, Python, Java, C/C++, Bash}
+\cvitem{\textbf{Web \& DB}}{HTML5, CSS/Sass, React/Redux, SQL (Postgres), MongoDB, Redis, RabbitMQ}
+\cvitem{\textbf{Cloud}}{Kubernetes, OpenShift, Docker, IBM Cloud, AWS, Digital Ocean, Cloudflare}
+\cvitem{\textbf{Misc. Software}}{Git, Linux, Argo CI/CD, Travis CI, Jenkins, Trello, Sketch, ZenHub, \LaTeX{}}
 
 
 \end{document}
